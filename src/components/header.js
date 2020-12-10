@@ -2,7 +2,7 @@ import { graphql, Link, StaticQuery } from "gatsby"
 import React from "react"
 import headerStyles from "./header.module.scss"
 
-export default function Header() {
+export default () => {
   return (
     <StaticQuery
       query={graphql`
