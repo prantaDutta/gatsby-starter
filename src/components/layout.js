@@ -1,7 +1,7 @@
 import React from "react"
-import Footer from "./footer"
-import Header from "./Header"
 import "../styles/index.scss"
+import Footer from "./footer"
+import Header from "./header"
 import layoutStyles from "./layout.module.scss"
 
 const Layout = ({ children }) => {
